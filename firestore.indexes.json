@@ -1,0 +1,60 @@
+{
+  "indexes": [
+    {
+      "collectionId": "items",
+      "fields": [
+        { "fieldPath": "city", "mode": "ASCENDING" },
+        { "fieldPath": "avgRating", "mode": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionId": "items",
+      "fields": [
+        { "fieldPath": "category", "mode": "ASCENDING" },
+        { "fieldPath": "avgRating", "mode": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionId": "items",
+      "fields": [
+        { "fieldPath": "price", "mode": "ASCENDING" },
+        { "fieldPath": "avgRating", "mode": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionId": "items",
+      "fields": [
+        { "fieldPath": "city", "mode": "ASCENDING" },
+        { "fieldPath": "numRatings", "mode": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionId": "items",
+      "fields": [
+        { "fieldPath": "category", "mode": "ASCENDING" },
+        { "fieldPath": "numRatings", "mode": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionId": "items",
+      "fields": [
+        { "fieldPath": "price", "mode": "ASCENDING" },
+        { "fieldPath": "numRatings", "mode": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionId": "items",
+      "fields": [
+        { "fieldPath": "city", "mode": "ASCENDING" },
+        { "fieldPath": "price", "mode": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionId": "items",
+      "fields": [
+        { "fieldPath": "category", "mode": "ASCENDING" },
+        { "fieldPath": "price", "mode": "ASCENDING" }
+      ]
+    }
+  ]
+}
