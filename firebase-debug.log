@@ -1,0 +1,42 @@
+[debug] [2018-11-08T10:21:47.250Z] ----------------------------------------------------------------------
+[debug] [2018-11-08T10:21:47.253Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ningn\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2018-11-08T10:21:47.253Z] CLI Version:   6.0.1
+[debug] [2018-11-08T10:21:47.253Z] Platform:      win32
+[debug] [2018-11-08T10:21:47.253Z] Node Version:  v10.13.0
+[debug] [2018-11-08T10:21:47.256Z] Time:          Thu Nov 08 2018 18:21:47 GMT+0800 (Hong Kong Standard Time)
+[debug] [2018-11-08T10:21:47.256Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-08T10:21:47.270Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-08T10:21:47.270Z] > authorizing via signed-in user
+[debug] [2018-11-08T10:21:47.270Z] [iam] checking project test-2c3bd for permissions ["firebase.projects.get"]
+[debug] [2018-11-08T10:21:47.272Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/test-2c3bd:testIamPermissions  
+
+[debug] [2018-11-08T10:21:47.335Z] Error: getaddrinfo ENOTFOUND cloudresourcemanager.googleapis.com cloudresourcemanager.googleapis.com:443
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:57:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND cloudresourcemanager.googleapis.com cloudresourcemanager.googleapis.com:443
+[debug] [2018-11-08T10:22:39.446Z] ----------------------------------------------------------------------
+[debug] [2018-11-08T10:22:39.449Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ningn\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2018-11-08T10:22:39.450Z] CLI Version:   6.0.1
+[debug] [2018-11-08T10:22:39.450Z] Platform:      win32
+[debug] [2018-11-08T10:22:39.450Z] Node Version:  v10.13.0
+[debug] [2018-11-08T10:22:39.451Z] Time:          Thu Nov 08 2018 18:22:39 GMT+0800 (Hong Kong Standard Time)
+[debug] [2018-11-08T10:22:39.451Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-08T10:22:39.463Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-08T10:22:39.463Z] > authorizing via signed-in user
+[debug] [2018-11-08T10:22:39.463Z] [iam] checking project test-2c3bd for permissions ["firebase.projects.get"]
+[debug] [2018-11-08T10:22:39.466Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/test-2c3bd:testIamPermissions  
+
+[debug] [2018-11-08T10:22:40.773Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-08T10:22:40.775Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/test-2c3bd  
+ 
+[debug] [2018-11-08T10:22:41.992Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\ningn\sharound-web'...
+[info] 
+[debug] [2018-11-08T10:22:42.016Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/164279841114/clients/_:getWebAppConfig  
+ 
+[debug] [2018-11-08T10:22:42.765Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
