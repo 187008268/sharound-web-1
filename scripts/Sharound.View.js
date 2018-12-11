@@ -52,6 +52,10 @@ Sharound.prototype.viewList = function(filters, filter_description) {
   headerEl.querySelector('#show-filters').addEventListener('click', function() {
     that.dialogs.filter.show();
   });
+  headerEl.querySelector('#signOut').addEventListener('click',function(){
+    firebase.auth().signOut();
+    window.location.href= "./login.html";
+  });
 
   var renderer = {
     remove: function(doc) {
